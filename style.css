@@ -1,0 +1,119 @@
+ul{
+    border: 2px solid red;
+}
+li {
+    color:red;
+}
+.grp1{
+    color:green;
+}
+#ijk, #mic {
+    color: yellow !important;
+}
+.container div{
+    border:1px solid black;
+    height:100px;
+    width:100px;
+
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    padding: 20px 30px 20px 30px; /* T R B L */
+    padding: opx 0px; /* TB BL */
+    padding: 10px; /* TRBL */
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 20px 40px;
+    box-sizing: border-box;
+
+    display: inline-block;
+}
+/* styling text in css */
+
+.font-styling h3{
+    font-weight: 800;
+    font-size: 2rem;
+    font-style:oblique ;
+    text-transform:capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: green;
+    border: 3px dashed blue;
+    text-decoration: dotted overline;
+    text-decoration: dotted line-through;
+    text-decoration: dotted underline;
+    color: #000;
+
+    /* values of color property */
+    /* color name */
+    color: red;
+    color: green;
+    color: blue;
+
+    /* RGB colors */
+    color: rgb(255, 0, 0);
+    color: rgb(0, 255, 0);
+    color: rgb(0, 0, 255);
+
+    /* HEXCODE 6*/
+    color: #ff0000;
+    color: #00ff00;
+    color: #0000ff;
+    color: #000000;
+    color: #ffffff;
+
+    /* HEXCODE3 */
+    color: #f00;
+    color: #0f0;
+    color: #00f;
+    color: #000;
+    color: #fff;
+
+    /* hsl value */
+color: hsl(250deg, 80%, 50%);
+}
+.font-styling{
+    text-align: justify;
+}
+.fa-comment {
+    font-size: 3rem;
+    position: fixed ;
+    right: 20px;
+    bottom: 20px;
+}
+
+.box2container{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+}
+.bx{
+width: 200px;
+height:200px ;
+}
+
+.bx1{
+    background-color: red;
+    position: relative ;
+    left: 400px;
+    z-index: 2;
+}
+
+.bx2{
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    z-index: 3;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+}
